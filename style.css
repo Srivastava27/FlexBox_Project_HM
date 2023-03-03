@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color:rgb(44, 218, 160);
+    padding: 80px;
+    color: white;
+    text-align: center;
+}
+
+.nav{
+    background-color: black;
+    padding: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.content{
+    display: flex;
+}
+.about{
+    background-color: gainsboro;
+    padding: 7px;
+}
+.img{
+    background-color: rgb(182, 176, 176);
+    height: 120px;
+    margin: 10px 5px 10px 0px;
+}
+
+.more .img{
+    height: 40px;
+    display: flex;
+}
+.more p{
+    align-self: center;
+    margin-left: 10px;
+}
+.more h3{
+    margin: 10px 0 10px 0;
+}
+.body{
+    padding: 7px;
+}
+.footer{
+    background-color: rgb(209, 204, 204);
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .content{
+        display: block;
+    }
+
+    .nav a{
+        display: block;
+    }
+    .nav a:hover{
+        background-color: gray;
+    }
+}
